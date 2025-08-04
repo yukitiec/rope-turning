@@ -1,0 +1,5 @@
+horizon : 15  # 15 steps..
+control_frequency: 50  # 50 Hz
+solver: "qrsqp" #"ipopt", "qrsqp", "osqp", "qpoases"
+
+tol_equality: 1e-4 #tolerance for the equality constraint
