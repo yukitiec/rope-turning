@@ -1,0 +1,9 @@
+params:
+  ns: 4  # number of spring.
+  _length_rope: 1.0  #m length of the rope
+  g: 9.81  # 重力加速度
+  pho: 1.14e3  #density : kg/m^3.
+  r: 1e-2 #radius : 1 cm.
+  k_s: 1e5 #1e5 N/m5  # バネ定数 0.3m
+  nu: 3  # robot's end-effector acceleration.  angular acceleration (6)
+  weight_turn: 10.0 #weight for maximize the rope's amplitude.
